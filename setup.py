@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="PY-Motion-lco-dot-global",
+    name="PY-Motion",
     version="5.0.0",
     author="Dave Douglass",
     author_email="ddouglass@lco.global",
@@ -21,6 +21,5 @@ setuptools.setup(
     python_requires='>=3.7',
     install_requires=[
         "pyserial",
-        "spidev",
     ],
 )
