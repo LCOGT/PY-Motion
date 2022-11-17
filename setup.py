@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="PY-Motion",
+    name="PY-Motion-lco-dot-global",
     version="5.0.0",
     author="Dave Douglass",
     author_email="ddouglass@lco.global",
